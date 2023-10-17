@@ -14,7 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp.alunossistoledo.kinghost.net
+        server: sftp://ftp.alunossistoledo.kinghost.net
         username: alunossistoledo
         password: Si123456
         server-dir: gustavo/
