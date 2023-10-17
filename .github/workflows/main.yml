@@ -18,6 +18,7 @@ jobs:
         username: alunossistoledo
         password: Si123456
         server-dir: home/alunossistoledo/joao/
+        port: 22
         
 
     
