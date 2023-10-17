@@ -18,7 +18,6 @@ jobs:
         username: alunossistoledo
         password: Si123456
         server-dir: joao/
-        protocol: sftp
-        port: 22
+        
 
     
