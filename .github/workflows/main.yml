@@ -6,7 +6,7 @@ name: 🚀 Deploy website on  push
 jobs:
   web-deploy:
     name: 🎉 Deploy
-    runs-on: ubuntu-lasted
+    runs-on: self-hosted
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
@@ -17,7 +17,7 @@ jobs:
         server: ftp.alunossistoledo.kinghost.net
         username: alunossistoledo
         password: Si123456
-        server-dir: gustavo/
+        server-dir: gustavoteste/
        
        
         
